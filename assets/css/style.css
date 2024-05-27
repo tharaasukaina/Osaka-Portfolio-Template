@@ -1,0 +1,101 @@
+:root {
+    --secColor: rgba(255, 255, 255, 0.7);
+    --mainColor: #ff2060;
+}
+
+.main-color {
+    color: var(--mainColor);
+}
+
+.social-media i {
+    border: 2px solid #333;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.social-media i:hover {
+    color: var(--mainColor);
+
+}
+
+header {
+    background-image: url('../img/1.webp');
+    background-size: cover;
+    background-position: 0-100px;
+}
+
+@media (max-width:1199px) {
+    header {
+        background-position: center center;
+    }
+}
+
+.titel h2 {
+    font-size: 70px;
+    color: #f1f1f1;
+    letter-spacing: 10px;
+
+}
+
+.titel h3 {
+    font-size: 40px;
+    position: absolute  ;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%,50%); */
+    letter-spacing: 5px;
+}
+
+.red {
+    color:var(--mainColor);
+
+}
+
+.services {
+    background-image: url('../img/bg.jpg');
+}
+
+.services .titel h2 {
+
+    color: #222;
+}
+
+.services .titel h3 {
+
+    color: #fff;
+}
+
+.text {
+    color: #ded3d3;
+
+}
+
+.service-items i {
+
+    border: 2px solid #faf8f8;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: #222;
+    color: white;
+    transition: all 1s;
+
+}
+
+.service-items {
+    color: rgb(0, 0, 0);
+}
+
+.service-items i:hover {
+    color: var(--mainColor);
+}
+/* .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+    color:black;
+} */
+
+#nav-tab .nav-item.show .nav-link, #nav-tab .nav-link.active {
+    color:var(--mainColor);
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  
